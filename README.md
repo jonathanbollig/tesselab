@@ -3,6 +3,8 @@
 
 > **No license yet.** The terms are still being clarified with my institute. Until a license is added, all rights are reserved: the code is public to read and to try out, not yet to reuse or redistribute.
 
+> **Install.** `pipx install git+https://github.com/jonathanbollig/tesselab.git` works now (add `@v0.1.0a1` to pin this pre-release). A release on PyPI follows soon. The examples are not part of the installed package: see "Try it".
+
 A desktop viewer for scientific data in which every analysis is a small graph of nodes that you can see, rewire and save. You open a folder of measurements, get an analysis with its plots, and then drag a cursor, change a parameter or rewire a node: only what depends on the change is computed again.
 
 ![Tesselab showing a transient absorption analysis in the dark theme](https://raw.githubusercontent.com/jonathanbollig/tesselab/main/docs/images/window_ta_dark.png)
