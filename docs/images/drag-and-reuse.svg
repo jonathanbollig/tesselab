@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" width="1000" height="500" role="img" aria-label="Dragging the wavelength line changes one analysis variable; only the nodes that depend on it run again, all others are reused, and the plot replaces just the line that moved.">
+<title>Dragging the wavelength line changes one analysis variable; only the nodes that depend on it run again, all others are reused, and the plot replaces just the line that moved.</title>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="#7b8088"/></marker></defs>
+<rect x="0.5" y="0.5" width="999" height="499" rx="14" fill="#f7f6f3" stroke="#d8d5cd"/>
+<rect x="560" y="28" width="250" height="36" rx="18" fill="#ffffff" stroke="#1f77b4" stroke-width="1.8"/>
+<path d="M582,46 l8,-8 l8,8 l-8,8 z" fill="#1f77b4"/>
+<text x="606" y="51" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="700" text-anchor="start" fill="#1f77b4">λ spectrum  270 → 271 nm</text>
+<text x="560" y="84" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="400" text-anchor="start" fill="#6b7078" font-style="italic">an analysis variable</text>
+<rect x="20" y="150" width="130" height="46" rx="7" fill="#efeeea" stroke="#c9c7c0" stroke-width="1.5"/>
+<text x="30" y="170" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="700" text-anchor="start" fill="#6b7078">Spectra file</text>
+<text x="30" y="187" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="400" text-anchor="start" fill="#6b7078">reused</text>
+<rect x="190" y="150" width="150" height="46" rx="7" fill="#efeeea" stroke="#c9c7c0" stroke-width="1.5"/>
+<text x="200" y="170" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="700" text-anchor="start" fill="#6b7078">Spectrum corrections</text>
+<text x="200" y="187" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="400" text-anchor="start" fill="#6b7078">reused</text>
+<rect x="380" y="150" width="140" height="46" rx="7" fill="#efeeea" stroke="#c9c7c0" stroke-width="1.5"/>
+<text x="390" y="170" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="700" text-anchor="start" fill="#6b7078">Irradiation steps</text>
+<text x="390" y="187" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="400" text-anchor="start" fill="#6b7078">reused</text>
+<rect x="570" y="150" width="140" height="46" rx="7" fill="#ffffff" stroke="#8b9097" stroke-width="1.5"/>
+<text x="580" y="170" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="700" text-anchor="start" fill="#23262b">Quantum yield</text>
+<text x="580" y="187" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="400" text-anchor="start" fill="#6b7078">runs again</text>
+<rect x="570" y="150" width="140" height="46" rx="7" fill="#ffffff" stroke="#d9480f" stroke-width="2.4"/>
+<text x="580" y="170" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="700" text-anchor="start" fill="#23262b">Quantum yield</text>
+<text x="580" y="187" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="700" text-anchor="start" fill="#d9480f">runs again</text>
+<rect x="570" y="240" width="140" height="46" rx="7" fill="#efeeea" stroke="#c9c7c0" stroke-width="1.5"/>
+<text x="580" y="260" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="700" text-anchor="start" fill="#6b7078">φ₀ vs. λ spectrum</text>
+<text x="580" y="277" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="400" text-anchor="start" fill="#6b7078">reused: no λ in it</text>
+<rect x="770" y="150" width="190" height="136" rx="7" fill="#e5f0df" stroke="#d9480f" stroke-width="2.4"/>
+<text x="782" y="170" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="700" text-anchor="start" fill="#23262b">Quantum yield view</text>
+<text x="782" y="187" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="11.5" font-weight="700" text-anchor="start" fill="#d9480f">redraws only the λ line</text>
+<rect x="782" y="200" width="166" height="76" rx="4" fill="#ffffff" stroke="#aab0b8" stroke-width="1"/>
+<polyline points="790,258 815,216 840,230 870,262 900,266 940,268" fill="none" stroke="#1f6fb5" stroke-width="1.6"/>
+<line x1="858" y1="204" x2="858" y2="272" stroke="#c92a2a" stroke-width="2.2"/>
+<line x1="864" y1="204" x2="864" y2="272" stroke="#c92a2a" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="150" y1="173" x2="188" y2="173" stroke="#7b8088" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="340" y1="173" x2="378" y2="173" stroke="#7b8088" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="520" y1="173" x2="568" y2="173" stroke="#7b8088" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M520,180 C545,180 545,263 568,263" fill="none" stroke="#7b8088" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="710" y1="173" x2="768" y2="173" stroke="#d9480f" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M710,263 C745,263 745,262 768,262" fill="none" stroke="#7b8088" stroke-width="1.6" marker-end="url(#arrow)"/>
+<path d="M640,64 L640,148" fill="none" stroke="#1f77b4" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+<path d="M780,64 C840,70 860,100 862,148" fill="none" stroke="#1f77b4" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+<path d="M934,148 C934,90 900,50 812,46" fill="none" stroke="#d9480f" stroke-width="1.8" marker-end="url(#arrow)"/>
+<circle cx="950" cy="120" r="11" fill="#d9480f"/>
+<text x="950" y="124.5" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#ffffff">1</text>
+<circle cx="826" cy="20" r="11" fill="#d9480f"/>
+<text x="826" y="24.5" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#ffffff">2</text>
+<circle cx="640" cy="126" r="11" fill="#d9480f"/>
+<text x="640" y="130.5" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#ffffff">3</text>
+<circle cx="270" cy="140" r="11" fill="#d9480f"/>
+<text x="270" y="144.5" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#ffffff">4</text>
+<circle cx="950" cy="304" r="11" fill="#d9480f"/>
+<text x="950" y="308.5" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#ffffff">5</text>
+<line x1="20" y1="208" x2="520" y2="208" stroke="#b9b6ae" stroke-width="1.4"/>
+<line x1="20" y1="202" x2="20" y2="208" stroke="#b9b6ae" stroke-width="1.4"/>
+<line x1="520" y1="202" x2="520" y2="208" stroke="#b9b6ae" stroke-width="1.4"/>
+<text x="270" y="228" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="700" text-anchor="middle" fill="#6b7078">same inputs, same parameters: nothing to do</text>
+<line x1="24" y1="336" x2="976" y2="336" stroke="#d8d5cd" stroke-width="1"/>
+<circle cx="40" cy="362" r="11" fill="#d9480f"/>
+<text x="40" y="366.5" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#ffffff">1</text>
+<text x="62" y="366" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" text-anchor="start" fill="#23262b">Drag the λ line in a plot: the view changes its own parameter.</text>
+<circle cx="40" cy="386" r="11" fill="#d9480f"/>
+<text x="40" y="390.5" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#ffffff">2</text>
+<text x="62" y="390" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" text-anchor="start" fill="#23262b">That parameter is bound to the analysis variable λ, so every node bound to it gets the new value.</text>
+<circle cx="40" cy="410" r="11" fill="#d9480f"/>
+<text x="40" y="414.5" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#ffffff">3</text>
+<text x="62" y="414" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" text-anchor="start" fill="#23262b">Quantum yield now has different parameters, so a different fingerprint: it runs in a worker process.</text>
+<circle cx="40" cy="434" r="11" fill="#d9480f"/>
+<text x="40" y="438.5" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#ffffff">4</text>
+<text x="62" y="438" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" text-anchor="start" fill="#23262b">The others see the same inputs and parameters as before: their stored results are reused.</text>
+<circle cx="40" cy="458" r="11" fill="#d9480f"/>
+<text x="40" y="462.5" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#ffffff">5</text>
+<text x="62" y="462" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13.5" font-weight="400" text-anchor="start" fill="#23262b">The view keeps every mark that did not change and replaces only the one that moved.</text>
+</svg>

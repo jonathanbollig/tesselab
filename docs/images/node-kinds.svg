@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330" width="1000" height="330" role="img" aria-label="Three kinds of nodes: readers read files, compute nodes compute, views show results; Datasets travel along the wires and only views have plots.">
+<title>Three kinds of nodes: readers read files, compute nodes compute, views show results; Datasets travel along the wires and only views have plots.</title>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="#7b8088"/></marker></defs>
+<rect x="0.5" y="0.5" width="999" height="329" rx="14" fill="#f7f6f3" stroke="#d8d5cd"/>
+<rect x="90" y="50" width="236" height="176" rx="10" fill="#e6edf8" stroke="#7f9cc9" stroke-width="1.5"/>
+<text x="104" y="78" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="16" font-weight="700" text-anchor="start" fill="#23262b">Reader</text>
+<line x1="104" y1="90" x2="312" y2="90" stroke="#7f9cc9" stroke-width="1"/>
+<text x="104" y="116" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#6b7078">does</text>
+<text x="150" y="116" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#23262b">reads a file or folder</text>
+<text x="104" y="142" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#6b7078">takes</text>
+<text x="150" y="142" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#23262b">a file path</text>
+<text x="104" y="168" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#6b7078">gives</text>
+<text x="150" y="168" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#23262b">the data, as measured</text>
+<text x="104" y="194" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#6b7078">plots</text>
+<text x="150" y="194" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#23262b">none</text>
+<rect x="390" y="50" width="236" height="176" rx="10" fill="#ffffff" stroke="#8b9097" stroke-width="1.5"/>
+<text x="404" y="78" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="16" font-weight="700" text-anchor="start" fill="#23262b">Compute node</text>
+<line x1="404" y1="90" x2="612" y2="90" stroke="#8b9097" stroke-width="1"/>
+<text x="404" y="116" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#6b7078">does</text>
+<text x="450" y="116" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#23262b">corrects, fits, unmixes</text>
+<text x="404" y="142" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#6b7078">takes</text>
+<text x="450" y="142" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#23262b">Datasets, parameters</text>
+<text x="404" y="168" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#6b7078">gives</text>
+<text x="450" y="168" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#23262b">Datasets</text>
+<text x="404" y="194" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#6b7078">plots</text>
+<text x="450" y="194" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#23262b">none</text>
+<rect x="690" y="50" width="236" height="176" rx="10" fill="#e5f0df" stroke="#86ad7c" stroke-width="1.5"/>
+<text x="704" y="78" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="16" font-weight="700" text-anchor="start" fill="#23262b">View</text>
+<line x1="704" y1="90" x2="912" y2="90" stroke="#86ad7c" stroke-width="1"/>
+<text x="704" y="116" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#6b7078">does</text>
+<text x="750" y="116" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#23262b">shows results</text>
+<text x="704" y="142" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#6b7078">takes</text>
+<text x="750" y="142" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#23262b">Datasets of any stage</text>
+<text x="704" y="168" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#6b7078">gives</text>
+<text x="750" y="168" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#23262b">nothing</text>
+<text x="704" y="194" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#6b7078">plots</text>
+<text x="750" y="194" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#23262b">yes, with interactions</text>
+<line x1="24" y1="138" x2="88" y2="138" stroke="#7b8088" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="56" y="128" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#6b7078">files</text>
+<line x1="326" y1="138" x2="388" y2="138" stroke="#7b8088" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="357" y="128" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#6b7078">Dataset</text>
+<line x1="626" y1="138" x2="688" y2="138" stroke="#7b8088" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="657" y="128" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#6b7078">Datasets</text>
+<line x1="808" y1="226" x2="808" y2="256" stroke="#7b8088" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="820" y="246" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12" font-weight="700" text-anchor="start" fill="#6b7078">plot descriptions</text>
+<rect x="690" y="258" width="236" height="46" rx="8" fill="#eceef2" stroke="#c3c7ce" stroke-width="1.5"/>
+<text x="808" y="278" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="700" text-anchor="middle" fill="#23262b">Tesselab draws them</text>
+<text x="808" y="295" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12" font-weight="400" text-anchor="middle" fill="#6b7078">window · PDF · JSON</text>
+<text x="90" y="262" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#23262b">A Dataset is a bundle of labelled arrays with units</text>
+<text x="90" y="281" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#23262b">(xarray). It is the only thing that travels along a wire,</text>
+<text x="90" y="300" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#23262b">so every output can be cached, exported and previewed.</text>
+</svg>

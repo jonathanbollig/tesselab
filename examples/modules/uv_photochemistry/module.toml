@@ -1,0 +1,63 @@
+[module]
+id = "kufner.uv-photochemistry"
+name = "UV photochemistry"
+version = "0.3.0"
+api = 1
+description = "Quantum yields of a photoreaction from stepwise irradiation, UV-Vis spectra and power meter traces."
+authors = ["Jonathan Bollig"]
+requires = ["numpy", "pandas", "xarray"]
+
+[[nodes]]
+id = "agilent-spectra"
+class = "nodes.py:AgilentSpectra"
+files = ["*.csv"]
+
+[[nodes]]
+id = "agilent-spectrum"
+class = "nodes.py:AgilentSpectrum"
+files = ["*.csv"]
+
+[[nodes]]
+id = "nucleoside-spectra"
+class = "nodes.py:NucleosideSpectra"
+files = ["*.csv"]
+
+[[nodes]]
+id = "power-meter"
+class = "nodes.py:PowerMeter"
+
+[[nodes]]
+id = "rig-records"
+class = "nodes.py:RigRecords"
+
+[[nodes]]
+id = "spectrum-corrections"
+class = "nodes.py:SpectrumCorrections"
+
+[[nodes]]
+id = "steps"
+class = "nodes.py:Steps"
+
+[[nodes]]
+id = "quantum-yield"
+class = "nodes.py:QuantumYield"
+
+[[nodes]]
+id = "phi0-spectrum"
+class = "nodes.py:Phi0Spectrum"
+
+[[nodes]]
+id = "mean-spectrum"
+class = "nodes.py:MeanSpectrum"
+
+[[nodes]]
+id = "quantum-yield-view"
+class = "nodes.py:QuantumYieldView"
+
+[[templates]]
+id = "quantum-yield"
+name = "UV quantum yield"
+file = "templates/quantum_yield.json"
+help = "Spectra, power meter, irradiation steps and quantum yield of one irradiation experiment. An existing analysis_params.json in the folder is taken over."
+recognize = { any = ["powers", "data/*.csv"] }
+fill = "nodes.py:fill_template"

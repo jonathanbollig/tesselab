@@ -1,0 +1,24 @@
+[module]
+id = "org.tesselab.chemometrics"
+name = "Chemometrics"
+version = "0.2.0"
+api = 1
+description = "SVD and MCR-ALS of any matrix (spectra over time, energy, delay, ...)."
+authors = ["Tesselab"]
+requires = ["numpy", "xarray"]
+
+[[nodes]]
+id = "svd"
+class = "nodes.py:SVD"
+
+[[nodes]]
+id = "mcr"
+class = "nodes.py:MCR"
+
+[[nodes]]
+id = "svd-view"
+class = "nodes.py:SVDView"
+
+[[nodes]]
+id = "mcr-view"
+class = "nodes.py:MCRView"

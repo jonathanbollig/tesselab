@@ -1,0 +1,22 @@
+{
+  "tesselab": 1,
+  "label": "{name}",
+  "vars": {"wavelength": 5.2e-7, "chirp_onsets": [], "fit_range": [3e-13, 2e-9]},
+  "nodes": {
+    "matrix": {"node": "org.tesselab.transient-absorption/matrix", "params": {"file": "{file}"}},
+    "corrections": {"node": "org.tesselab.transient-absorption/corrections", "inputs": {"data": "matrix.data"},
+                    "params": {"chirp_onsets": {"var": "chirp_onsets"}}},
+    "map": {"node": "org.tesselab.transient-absorption/corrected-map", "inputs": {"data": "corrections.data"},
+            "params": {"chirp_onsets": {"var": "chirp_onsets"}}},
+    "explorer": {"node": "org.tesselab.transient-absorption/explorer", "inputs": {"data": "corrections.data"},
+                 "params": {"cursor_wavelength": {"var": "wavelength"}}},
+    "fit": {"node": "org.tesselab.transient-absorption/global-fit", "inputs": {"data": "corrections.data"},
+            "params": {"fit_range": {"var": "fit_range"}}},
+    "fit_view": {"node": "org.tesselab.transient-absorption/global-fit-view", "inputs": {"fit": "fit.fit"},
+                 "params": {"cursor_wavelength": {"var": "wavelength"}, "fit_range": {"var": "fit_range"}}},
+    "svd": {"node": "org.tesselab.chemometrics/svd", "inputs": {"data": {"from": "corrections.data", "bind": {"matrix": "dA", "row_pos": "delay", "col_pos": "wavelength"}}}},
+    "svd_view": {"node": "org.tesselab.chemometrics/svd-view", "inputs": {"svd": "svd.svd"}}
+  },
+  "view": {"order": ["explorer", "fit_view", "map", "svd_view", "corrections", "fit", "svd", "matrix"],
+           "open": ["explorer", "fit_view", "map"]}
+}

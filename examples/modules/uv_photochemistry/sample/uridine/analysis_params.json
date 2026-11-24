@@ -1,0 +1,23 @@
+{
+  "spectrum_file": "data/spectra.csv",
+  "buffer_file": "data/2026_07_10_bicarbonate_buffer_avg.csv",
+  "power_folder": "data/powers",
+  "nucleoside_spectrum_file": "data/nucleoside_spectra2.csv",
+  "nucleosides": [
+    "U"
+  ],
+  "lambda_irradiation": 2.65e-07,
+  "lambda_spectrum": 2.7e-07,
+  "thickness": 0.01,
+  "volume": 1.5e-06,
+  "skipfooter_spectra": 0,
+  "combine_spectra": 3,
+  "combine_spectra_method": "lowest",
+  "ignore_spectra": [],
+  "extra_spectra": [],
+  "fit_num": 5,
+  "label": "uridine test",
+  "export_paths": [
+    "analysis.pdf"
+  ]
+}

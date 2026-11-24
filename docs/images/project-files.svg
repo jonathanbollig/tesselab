@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" width="1000" height="420" role="img" aria-label="A project is a folder of your data plus a tesselab folder with analyses and graphs; analyses of the same kind share one graph file and keep their own values.">
+<title>A project is a folder of your data plus a tesselab folder with analyses and graphs; analyses of the same kind share one graph file and keep their own values.</title>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,1 L9,5 L0,9 z" fill="#7b8088"/></marker></defs>
+<rect x="0.5" y="0.5" width="999" height="419" rx="14" fill="#f7f6f3" stroke="#d8d5cd"/>
+<rect x="24" y="24" width="470" height="372" rx="12" fill="#ffffff" stroke="#aab0b8" stroke-width="1.5"/>
+<text x="44" y="58" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13.5" font-weight="600" text-anchor="start" fill="#23262b">my_project/</text>
+<text x="272" y="58" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" text-anchor="start" fill="#6b7078">any folder of yours</text>
+<text x="68" y="83" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13.5" font-weight="600" text-anchor="start" fill="#23262b">data/</text>
+<text x="92" y="108" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13.5" font-weight="600" text-anchor="start" fill="#23262b">experiment_1/</text>
+<text x="272" y="108" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" text-anchor="start" fill="#6b7078">your measurements,</text>
+<text x="92" y="133" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13.5" font-weight="600" text-anchor="start" fill="#23262b">experiment_2/</text>
+<text x="272" y="133" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" text-anchor="start" fill="#6b7078">only read, never changed</text>
+<text x="68" y="158" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13.5" font-weight="600" text-anchor="start" fill="#23262b">tesselab/</text>
+<text x="272" y="158" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" text-anchor="start" fill="#6b7078">added by Tesselab</text>
+<text x="92" y="183" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13.5" font-weight="400" text-anchor="start" fill="#23262b">project.toml</text>
+<text x="92" y="208" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13.5" font-weight="600" text-anchor="start" fill="#23262b">analyses/</text>
+<text x="272" y="208" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" text-anchor="start" fill="#6b7078">one small JSON file each</text>
+<text x="116" y="233" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13.5" font-weight="400" text-anchor="start" fill="#23262b">experiment_1.json</text>
+<text x="116" y="258" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13.5" font-weight="400" text-anchor="start" fill="#23262b">experiment_2.json</text>
+<text x="92" y="283" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13.5" font-weight="600" text-anchor="start" fill="#23262b">graphs/</text>
+<text x="272" y="283" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" text-anchor="start" fill="#6b7078">shared by analyses</text>
+<text x="116" y="308" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13.5" font-weight="400" text-anchor="start" fill="#23262b">quantum_yield.json</text>
+<text x="92" y="333" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13.5" font-weight="600" text-anchor="start" fill="#23262b">sessions/</text>
+<text x="272" y="333" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" text-anchor="start" fill="#6b7078">saved windows: tabs, layout</text>
+<text x="92" y="358" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13.5" font-weight="600" text-anchor="start" fill="#23262b">cache/</text>
+<text x="272" y="358" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12.5" font-weight="400" text-anchor="start" fill="#6b7078">results; safe to delete</text>
+<rect x="640" y="28" width="320" height="108" rx="12" fill="#ffffff" stroke="#1f6fb5" stroke-width="2"/>
+<text x="660" y="56" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="700" text-anchor="start" fill="#23262b">Graph file</text>
+<text x="660" y="78" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#23262b">nodes and how they are wired</text>
+<text x="660" y="97" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#23262b">where the boxes sit, default values</text>
+<text x="660" y="116" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#23262b">variables and what they are bound to</text>
+<rect x="530" y="232" width="210" height="128" rx="12" fill="#ffffff" stroke="#aab0b8" stroke-width="1.5"/>
+<text x="546" y="258" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="700" text-anchor="start" fill="#23262b">Analysis</text>
+<text x="620" y="258" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13" font-weight="400" text-anchor="start" fill="#6b7078">experiment_1</text>
+<text x="546" y="282" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#23262b">its data folder</text>
+<text x="546" y="302" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#23262b">values set in this analysis</text>
+<text x="546" y="322" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#23262b">links to other analyses</text>
+<text x="546" y="342" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#23262b">results, key numbers</text>
+<rect x="770" y="232" width="210" height="128" rx="12" fill="#ffffff" stroke="#aab0b8" stroke-width="1.5"/>
+<text x="786" y="258" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="15" font-weight="700" text-anchor="start" fill="#23262b">Analysis</text>
+<text x="860" y="258" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="13" font-weight="400" text-anchor="start" fill="#6b7078">experiment_2</text>
+<text x="786" y="282" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#23262b">its data folder</text>
+<text x="786" y="302" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#23262b">values set in this analysis</text>
+<text x="786" y="322" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#23262b">links to other analyses</text>
+<text x="786" y="342" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#23262b">results, key numbers</text>
+<line x1="635" y1="232" x2="700" y2="138" stroke="#7b8088" stroke-width="1.6" marker-end="url(#arrow)"/>
+<line x1="875" y1="232" x2="830" y2="138" stroke="#7b8088" stroke-width="1.6" marker-end="url(#arrow)"/>
+<text x="655" y="196" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#6b7078">uses</text>
+<text x="868" y="196" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="12" font-weight="700" text-anchor="middle" fill="#6b7078">uses</text>
+<text x="530" y="388" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'DejaVu Sans', sans-serif" font-size="13" font-weight="600" text-anchor="start" fill="#23262b">Edit the graph once and every analysis that uses it follows.</text>
+</svg>

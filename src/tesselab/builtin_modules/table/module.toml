@@ -1,0 +1,24 @@
+[module]
+id = "org.tesselab.table"
+name = "Tables"
+version = "0.2.0"
+api = 1
+description = "Reads a table of numbers (CSV, tab or space separated) whose first column is x and whose other columns are series, and plots it."
+authors = ["Tesselab"]
+requires = ["numpy", "xarray"]
+
+[[nodes]]
+id = "csv"
+class = "nodes.py:CsvTable"
+files = ["*.csv", "*.txt", "*.tsv", "*.dat"]
+
+[[nodes]]
+id = "table-plot"
+class = "nodes.py:TablePlot"
+
+[[templates]]
+id = "table"
+name = "Table of series"
+file = "templates/table.json"
+help = "One CSV file: the first column is x, every other column a series."
+fill = "nodes.py:fill_template"

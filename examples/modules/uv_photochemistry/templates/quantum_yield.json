@@ -1,0 +1,75 @@
+{
+  "tesselab": 1,
+  "label": "{label}",
+  "comment": "{comment}",
+  "vars": {"lambda_spectrum": "{lambda_spectrum}", "lambda_irradiation": "{lambda_irradiation}",
+           "nucleosides": "{nucleosides}", "thickness": "{thickness}", "volume": "{volume}", "fit_num": "{fit_num}",
+           "x_axis": "energy", "ignore_spectra": "{ignore_spectra}", "baseline": "{baseline}"},
+  "nodes": {
+    "spectra_file": {
+      "node": "kufner.uv-photochemistry/agilent-spectra",
+      "params": {"file": "{spectrum_file}", "skipfooter": "{skipfooter_spectra}"}
+    },
+    "buffer_file": {
+      "node": "kufner.uv-photochemistry/agilent-spectrum", "label": "buffer",
+      "params": {"file": "{buffer_file}"}
+    },
+    "power_meter": {
+      "node": "kufner.uv-photochemistry/power-meter",
+      "params": {"folder": "{power_folder}"}
+    },
+    "records": {
+      "node": "kufner.uv-photochemistry/rig-records",
+      "params": {"steps_file": "{steps_file}", "config_file": "{config_file}"}
+    },
+    "epsilon": {
+      "node": "kufner.uv-photochemistry/nucleoside-spectra",
+      "params": {"file": "{nucleoside_spectrum_file}"}
+    },
+    "corrections": {
+      "node": "kufner.uv-photochemistry/spectrum-corrections",
+      "inputs": {"measured_spectra": "spectra_file.spectra", "buffer": "buffer_file.spectrum"},
+      "params": {
+        "combine_spectra": "{combine_spectra}", "combine_spectra_method": "{combine_spectra_method}",
+        "extra_spectra": "{extra_spectra}", "baseline": {"var": "baseline"}
+      }
+    },
+    "steps": {
+      "node": "kufner.uv-photochemistry/steps",
+      "inputs": {"spectra": "corrections.spectra", "irradiations": "power_meter.irradiations",
+                 "uncombined_spectra": "corrections.uncombined_spectra", "rig_records": "records.rig_records"},
+      "params": {"ignore_spectra": {"var": "ignore_spectra"}}
+    },
+    "qy": {
+      "node": "kufner.uv-photochemistry/quantum-yield",
+      "inputs": {"steps": "steps.steps", "epsilon": "epsilon.epsilon"},
+      "params": {
+        "nucleosides": {"var": "nucleosides"}, "lambda_irradiation": {"var": "lambda_irradiation"},
+        "thickness": {"var": "thickness"}, "volume": {"var": "volume"}, "fit_num": {"var": "fit_num"},
+        "lambda_spectrum": {"var": "lambda_spectrum"}
+      }
+    },
+    "phi0": {
+      "node": "kufner.uv-photochemistry/phi0-spectrum",
+      "inputs": {"steps": "steps.steps", "epsilon": "epsilon.epsilon"},
+      "params": {
+        "nucleosides": {"var": "nucleosides"}, "lambda_irradiation": {"var": "lambda_irradiation"},
+        "thickness": {"var": "thickness"}, "volume": {"var": "volume"}, "fit_num": {"var": "fit_num"}
+      }
+    },
+    "view": {
+      "node": "kufner.uv-photochemistry/quantum-yield-view",
+      "inputs": {"spectra": "steps.spectra_with_totals", "quantum_yields": "qy.quantum_yields",
+                 "phi0_fit": "qy.phi0_fit", "phi0_spectrum": "phi0.phi0_spectrum", "epsilon": "epsilon.epsilon",
+                 "irradiations": "steps.irradiations", "power_traces": "power_meter.power_traces",
+                 "rig_records": "records.rig_records"},
+      "params": {
+        "marker": {"var": "lambda_spectrum"}, "x_axis": {"var": "x_axis"}, "nucleosides": {"var": "nucleosides"},
+        "ignore_spectra": {"var": "ignore_spectra"}, "baseline": {"var": "baseline"}
+      }
+    }
+  },
+  "view": {"order": ["view", "qy", "phi0", "steps", "corrections", "spectra_file", "buffer_file", "power_meter",
+                     "records", "epsilon"],
+           "open": ["view"]}
+}

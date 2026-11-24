@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=77"]  # 77: license-files is a field of [project]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tesselab"
+dynamic = ["version"]
+description = "A desktop viewer for scientific data whose analyses are small graphs of nodes, supplied by modules."
+readme = "README.md"
+license-files = []  # no license yet: a local LICENSE file must not end up in a build (once there is one: license = "<id>", license-files = ["LICENSE"])
+authors = [{ name = "Jonathan Bollig" }]
+keywords = ["data analysis", "visualization", "scientific data", "node graph", "xarray", "pyqtgraph"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: X11 Applications :: Qt",
+    "Intended Audience :: Science/Research",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Visualization",
+]
+requires-python = ">=3.11"
+dependencies = [
+    "numpy",
+    "xarray",
+    "scipy",          # netCDF files of the disk cache
+    "matplotlib",     # the PDF export
+    "PySide6>=6.6",
+    "pyqtgraph>=0.13",
+    "platformdirs",
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.urls]
+Homepage = "https://github.com/jonathanbollig/tesselab"
+Issues = "https://github.com/jonathanbollig/tesselab/issues"
+
+[project.scripts]
+tesselab-cli = "tesselab.cli:main"
+
+[project.gui-scripts]
+tesselab = "tesselab.cli:main"
+
+[tool.setuptools.dynamic]
+version = { attr = "tesselab.__version__" }  # the one place to change at a release
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+tesselab = ["builtin_modules/**/*", "AGENTS.md", "scaffold/**/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

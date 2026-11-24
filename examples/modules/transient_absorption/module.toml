@@ -1,0 +1,42 @@
+[module]
+id = "org.tesselab.transient-absorption"
+name = "Transient absorption"
+version = "0.2.0"
+api = 1
+description = "ΔA matrices of pump-probe experiments: corrections (background, chirp, time zero, scatter, crop), a map with spectrum and kinetic, and a global fit with exponentials."
+authors = ["Tesselab"]
+requires = ["numpy", "xarray", "scipy"]
+
+[[nodes]]
+id = "matrix"
+class = "nodes.py:Matrix"
+files = ["*.csv", "*.dat", "*.txt"]
+
+[[nodes]]
+id = "corrections"
+class = "nodes.py:Corrections"
+
+[[nodes]]
+id = "corrected-map"
+class = "nodes.py:CorrectedMap"
+
+[[nodes]]
+id = "explorer"
+class = "nodes.py:Explorer"
+
+[[nodes]]
+id = "global-fit"
+class = "nodes.py:GlobalFit"
+
+[[nodes]]
+id = "global-fit-view"
+class = "nodes.py:GlobalFitView"
+
+[[templates]]
+id = "global-analysis"
+name = "TA global analysis"
+file = "templates/global_analysis.json"
+help = "A folder with a ΔA matrix (first row: wavelengths in nm, first column: delays)."
+recognize = { any = ["*.csv", "*.dat", "*.txt"] }
+detect = "nodes.py:detect"
+fill = "nodes.py:fill_template"

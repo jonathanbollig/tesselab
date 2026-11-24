@@ -1,0 +1,15 @@
+__pycache__/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+check/
+exports/
+# private, not for publishing: working notes, test projects with copies of real measurements, a developer's own
+# additions to CLAUDE.md and local Claude Code settings
+notes/
+scratch/
+CLAUDE.local.md
+# no license is published yet (being clarified with the author's institute): the file stays out of git
+LICENSE
+.claude/settings.local.json

@@ -1,0 +1,9 @@
+{
+  "tesselab": 1,
+  "label": "{name}",
+  "nodes": {
+    "table": {"node": "org.tesselab.table/csv", "params": {"file": "{file}"}},
+    "plot": {"node": "org.tesselab.table/table-plot", "inputs": {"table": "table.table"}}
+  },
+  "view": {"order": ["plot", "table"], "open": ["plot"]}
+}
