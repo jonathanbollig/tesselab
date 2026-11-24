@@ -68,7 +68,7 @@ You edit the analysis here: drag a wire from an output to an input, drop it on e
 ![The graph of the transient absorption analysis](https://raw.githubusercontent.com/jonathanbollig/tesselab/main/docs/images/graph_ta_dark.png)
 *The graph of the transient absorption analysis: a reader, corrections, a global fit and an SVD, and four views. Three variables tie nodes together: the wavelength (explorer and fit view), the chirp onsets (corrections and map) and the fit range (fit and fit view).*
 ## Try it
-Python 3.11 or newer. Tesselab is not on PyPI; install it from a clone:
+Python 3.11 or newer. The examples and their sample data are in this repository, so start from a clone:
 ```
 git clone https://github.com/jonathanbollig/tesselab.git
 cd tesselab

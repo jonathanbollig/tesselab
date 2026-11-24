@@ -9,7 +9,7 @@ What module code uses (see AGENTS.md for the protocol):
 The rest of the package is Tesselab itself: modules.py (finding and loading modules), analysis.py (the analysis
 files), engine.py (computing them), project.py, export.py, check.py, scaffold.py, cli.py, gui/ (the window).
 """
-__version__ = "0.1.0"
+__version__ = "0.1.0a1"
 
 from tesselab import params as P
 from tesselab.node import (Action, Crosshair, Cursor, DrawContext, Node, Pick, Plot, RangeSelect, Reader, Result,
